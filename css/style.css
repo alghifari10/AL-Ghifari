@@ -271,3 +271,16 @@ section {
     margin-top: 15px;
   }
 }
+
+.foto-lingkaran-clip {
+  /* Tentukan ukuran gambar Anda */
+  width: 150px;
+  height: 150px;
+
+  /* clip-path: circle(50% at 50% 50%) memotong gambar menjadi lingkaran */
+  clip-path: circle(50% at 50% 50%);
+  
+  /* Opsional, untuk memastikan gambar pas di dalam area pemotongan */
+  object-fit: cover;
+ }
+} 
