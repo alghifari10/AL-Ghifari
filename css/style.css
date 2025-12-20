@@ -28,7 +28,6 @@ nav {
   align-items: center;
 }
 
-.logo {
   color: white;
   font-size: 2rem;
   font-weight: bold;
@@ -269,5 +268,5 @@ section {
 
   .main-container button {
     margin-top: 15px;
+   }
   }
-}
